@@ -1,0 +1,25 @@
+.card {
+    float: left;
+    width: 250px;
+    height: auto;
+    margin: auto 18px 18px auto;
+}
+a > img {
+    width: 250px;
+    height: 400px;
+}
+
+img:hover {
+    box-shadow: 0 0 15px rgba(2, 2, 2, 0.2); 
+    opacity: 0.95;
+  }
+
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.modal-content > h2, p, button {
+    margin: 7px;
+}

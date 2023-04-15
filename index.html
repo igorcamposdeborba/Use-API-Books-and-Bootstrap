@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BOOSTRAP e JQUERY -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-- Axios -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <!--  Estilos da lista de imagens -->
+    <link rel="stylesheet" href="styles/stylesAPI.css"/>
+
+    <!--  vincular lógica das requisições da API e criação da lista de imagens -->
+    <script src="api.js" type="module" ></script>
+
+    <title>Biblioteca</title>
+</head>
+
+<body>
+
+    <header>
+        <!-- Criados elementos com manipulação do shadow dom via api javascript -->
+        <header-brand alt="Logo" title="Logo" content="Vinculated API implemented by Igor Borba"></brand-library>
+    </header>
+
+    <div class="container">
+        <br />
+         <!-- Criar lista de imagens com requisição via Axios -->
+        <div id="image-grid" class="col"></div>
+    </div>
+
+    <footer>
+        <!-- Elemento modificado via api javascript -->
+        <div content="Rua dos Dev, nº 1, Jardim Europa - Porto Alegre/RS - CNPJ: 20.946.667/0001-99. Imagens meramente ilustrativas." is="footer-library"></div>
+    </footer>
+
+    
+    <!-- Componentes personalizados via api javascript-->
+    <script src="./components/Header/Header.js"></script>
+    <script src="./components/Footer/Footer.js"></script>
+
+</body>
+
+</html>
