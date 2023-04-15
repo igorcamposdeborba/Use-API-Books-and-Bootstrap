@@ -1,6 +1,6 @@
 ## API JavaScript
 - Nome do projeto: API
-- Sobre o projeto: Desenvolvimento de um site que mostra um catálogo de produtos de uma API com JavaScript e Bootstrap com vídeo explicativo.
+- Sobre o projeto: Desenvolvimento de um site que mostra um catálogo de produtos de uma API com JavaScript, JQuery e Bootstrap com vídeo explicativo.
 - Status do Projeto: concluído
 - Funcionalidades:  exibir imagens com link para compra em site externo.
 - Como usar: na pasta do projeto, siga as instruções abaixo.
