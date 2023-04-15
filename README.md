@@ -1,4 +1,4 @@
-## API JavaScript
+## API JavaScript HAPI Books
 - Nome do projeto: API
 - Sobre o projeto: Desenvolvimento de um site que mostra um catálogo de produtos de uma API com JavaScript, JQuery e Bootstrap com vídeo explicativo.
 - Status do Projeto: concluído
